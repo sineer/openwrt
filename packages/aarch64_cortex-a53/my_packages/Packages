@@ -1,1 +1,56 @@
+bin\/packages\/aarch64_cortex-a53\/my_packages\/ubispot_1_aarch64_cortex-a53.ipk
+Package: ubispot
+Version: 1
+Depends: ucode (>= 2023-11-07), libc, conntrack, libblobmsg-json20230523, liblucihttp-ucode, libradcli, libubox20230523, libubus20230605, libuci20130104, ubispotfilter, ucode, ucode-mod-log, ucode-mod-math, ucode-mod-nl80211, ucode-mod-rtnl, uhttpd-mod-ucode, ucode-mod-uloop
+Conflicts: uspot
+Source: /home/cluster/w/ubispot
+SourceName: ubispot
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1747536745
+Maintainer: Thibaut VARÈNE <hacks@slashdirt.org>
+Architecture: aarch64_cortex-a53
+Installed-Size: 29216
+Filename: bin/packages/aarch64_cortex-a53/my_packages/ubispot_1_aarch64_cortex-a53.ipk
+Size: 29671
+SHA256sum: a7770a832bd829bb1d9f348ddfe9cbf0bc6dbfacfe5187e5d9defe8734d028bb
+Description:  Ubi.tel fork of uspot with pre-configured wifi login page radius uam handler.
+
+bin\/packages\/aarch64_cortex-a53\/my_packages\/ubispotfilter_1_all.ipk
+Package: ubispotfilter
+Version: 1
+Depends: ucode (>= 2023-11-07), libc, ucode, ucode-mod-log, ucode-mod-uloop, ucode-mod-rtnl, nftables-json, conntrack
+Conflicts: uspotfilter
+Source: /home/cluster/w/ubispot
+SourceName: ubispotfilter
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1747536745
+Maintainer: Thibaut VARÈNE <hacks@slashdirt.org>
+Architecture: all
+Installed-Size: 4018
+Filename: bin/packages/aarch64_cortex-a53/my_packages/ubispotfilter_1_all.ipk
+Size: 4856
+SHA256sum: 53243b39eeb523a664ac3d1e52a2835a3ab24fe7b49f0a9f862f6aa657c3d7a6
+Description:  This package provides the nftables firewall interface to ubispot.
+ It is compatible with firewall4.
+
+bin\/packages\/aarch64_cortex-a53\/my_packages\/ubispot-www_1_all.ipk
+Package: ubispot-www
+Version: 1
+Depends: libc, ubispot
+Conflicts: uspot-www
+Source: /home/cluster/w/ubispot
+SourceName: ubispot-www
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1747536745
+Maintainer: Thibaut VARÈNE <hacks@slashdirt.org>
+Architecture: all
+Installed-Size: 24834
+Filename: bin/packages/aarch64_cortex-a53/my_packages/ubispot-www_1_all.ipk
+Size: 24894
+SHA256sum: 20758adb955ec17b17d576cac1064cb62a9e6d3b4cf0a71f7237588ae0fc522d
+Description:  This package provides CSS and HTML templates for ubispot UI.
+ This package must be installed with ubispot unless a local alternative is provided.
 
