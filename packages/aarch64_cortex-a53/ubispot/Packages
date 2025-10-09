@@ -1,35 +1,2796 @@
+Package: aircard-pcmcia-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: aircard-pcmcia-firmware
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 438
+Filename: aircard-pcmcia-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 1180
+SHA256sum: 695ed1a4cf0c1383565ae2e81bf218592ad93b932e21f7bd7d652c3fc9ffaed4
+Description:  Sierra Wireless Aircard 555/7xx/8x0 firmware
+
+Package: amdgpu-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: amdgpu-firmware
+LicenseFiles: LICENSE.amdgpura
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 26756051
+Filename: amdgpu-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 26515708
+SHA256sum: e3d1054919814f8c6b0438cb8450e0e4cdbe5df40d346a97ec9270463807977d
+Description:  AMDGPU Video Driver firmware
+
+Package: ar3k-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: ar3k-firmware
+LicenseFiles: LICENSE.QualcommAtheros_ar3k
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 961485
+Filename: ar3k-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 961776
+SHA256sum: bcdb3cdf19c627f9fa7284fe25817c96554e036a8473477c38571ac9b8c7b457
+Description:  ath3k firmware
+
+Package: ath10k-board-qca4019
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: ath10k-board-qca4019
+LicenseFiles: LICENSE.QualcommAtheros_ath10k
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 83898
+Filename: ath10k-board-qca4019_20230804-1_aarch64_cortex-a53.ipk
+Size: 82443
+SHA256sum: 13c3abc1b66ffd3b228fb3f4ce3989056bc96f722635f6cbca9485a889abaa39
+Description:  ath10k qca4019 board firmware
+
+Package: ath10k-board-qca9377
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: ath10k-board-qca9377
+LicenseFiles: LICENSE.QualcommAtheros_ath10k
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 8370
+Filename: ath10k-board-qca9377_20230804-1_aarch64_cortex-a53.ipk
+Size: 8256
+SHA256sum: 8203919660d9b8afca1226a62de414bf80e4231cc8448dff61878ba83910a632
+Description:  ath10k qca9377 board firmware
+
+Package: ath10k-board-qca9887
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: ath10k-board-qca9887
+LicenseFiles: LICENSE.QualcommAtheros_ath10k
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 671
+Filename: ath10k-board-qca9887_20230804-1_aarch64_cortex-a53.ipk
+Size: 1437
+SHA256sum: 87596becfa12b601b5d1ff68203220d5860aa9708b59705736c1f12e75db8fdc
+Description:  ath10k qca9887 board firmware
+
+Package: ath10k-board-qca9888
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: ath10k-board-qca9888
+LicenseFiles: LICENSE.QualcommAtheros_ath10k
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 7621
+Filename: ath10k-board-qca9888_20230804-1_aarch64_cortex-a53.ipk
+Size: 8144
+SHA256sum: 286a882665d1a9e86c872219c6b46a9da83491fe91dceefb6d933b5d09c5da5f
+Description:  ath10k qca9888 board firmware
+
+Package: ath10k-board-qca988x
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: ath10k-board-qca988x
+LicenseFiles: LICENSE.QualcommAtheros_ath10k
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 773
+Filename: ath10k-board-qca988x_20230804-1_aarch64_cortex-a53.ipk
+Size: 1538
+SHA256sum: 0b6de29f8bd02f61b4d3a3b4af1fbe0785ddcd7cd228016aecf689570727aaba
+Description:  ath10k qca988x board firmware
+
+Package: ath10k-board-qca9984
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: ath10k-board-qca9984
+LicenseFiles: LICENSE.QualcommAtheros_ath10k
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 14492
+Filename: ath10k-board-qca9984_20230804-1_aarch64_cortex-a53.ipk
+Size: 14814
+SHA256sum: 9380fd426a3b664f603f69f8c199d3e42cdc71dad7e74554be56becdfd80defc
+Description:  ath10k qca9984 board firmware
+
+Package: ath10k-board-qca99x0
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: ath10k-board-qca99x0
+LicenseFiles: LICENSE.QualcommAtheros_ath10k
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 7557
+Filename: ath10k-board-qca99x0_20230804-1_aarch64_cortex-a53.ipk
+Size: 8199
+SHA256sum: 2b0cbd07cd1f11762edcd93cf33049e2e7cc53ccf7dd72c2899025b5694b3388
+Description:  ath10k qca99x0 board firmware
+
+Package: ath10k-firmware-qca4019
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: ath10k-firmware-qca4019
+LicenseFiles: LICENSE.QualcommAtheros_ath10k
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 466962
+Filename: ath10k-firmware-qca4019_20230804-1_aarch64_cortex-a53.ipk
+Size: 466338
+SHA256sum: 7f1316e890922c11f3b395392b3d41ca75c2c01c9a8d994c5b19f5b2bb5cecfb
+Description:  ath10k qca4019 firmware
+
+Package: ath10k-firmware-qca6174
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: ath10k-firmware-qca6174
+LicenseFiles: LICENSE.QualcommAtheros_ath10k
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 878151
+Filename: ath10k-firmware-qca6174_20230804-1_aarch64_cortex-a53.ipk
+Size: 875588
+SHA256sum: 011abde1c70939cdd574d5b0c6d53f012a89f4310ddc79057de856883fbfd022
+Description:  ath10k qca6174 firmware
+
+Package: ath10k-firmware-qca9377
+Version: 20230804-1
+Depends: libc, ath10k-board-qca9377
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: ath10k-firmware-qca9377
+LicenseFiles: LICENSE.QualcommAtheros_ath10k
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 524144
+Filename: ath10k-firmware-qca9377_20230804-1_aarch64_cortex-a53.ipk
+Size: 524298
+SHA256sum: e4e47a16c367cdb79e08d75bc0b5b66023452de57786541ffa7982ae9b06bf3c
+Description:  ath10k qca9377 firmware
+
+Package: ath10k-firmware-qca9887
+Version: 20230804-1
+Depends: libc, ath10k-board-qca9887
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: ath10k-firmware-qca9887
+LicenseFiles: LICENSE.QualcommAtheros_ath10k
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 208908
+Filename: ath10k-firmware-qca9887_20230804-1_aarch64_cortex-a53.ipk
+Size: 209789
+SHA256sum: 695ff607a70c7c12b077cf81d0f319842fa56c9946b6c1da1edafc61f0839ba1
+Description:  ath10k qca9887 firmware
+
+Package: ath10k-firmware-qca9888
+Version: 20230804-1
+Depends: libc, ath10k-board-qca9888
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: ath10k-firmware-qca9888
+LicenseFiles: LICENSE.QualcommAtheros_ath10k
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 529172
+Filename: ath10k-firmware-qca9888_20230804-1_aarch64_cortex-a53.ipk
+Size: 528866
+SHA256sum: bb1e83c21b919975d958228ad0c2d6a4df08335501cf53ee5080ed634f655fa9
+Description:  ath10k qca9888 firmware
+
+Package: ath10k-firmware-qca988x
+Version: 20230804-1
+Depends: libc, ath10k-board-qca988x
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: ath10k-firmware-qca988x
+LicenseFiles: LICENSE.QualcommAtheros_ath10k
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 218881
+Filename: ath10k-firmware-qca988x_20230804-1_aarch64_cortex-a53.ipk
+Size: 219758
+SHA256sum: b9806844e90fa1802d0ff422465639f18fe3209ba95900d12e4139e43fb9052b
+Description:  ath10k qca988x firmware
+
+Package: ath10k-firmware-qca9984
+Version: 20230804-1
+Depends: libc, ath10k-board-qca9984
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: ath10k-firmware-qca9984
+LicenseFiles: LICENSE.QualcommAtheros_ath10k
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 522541
+Filename: ath10k-firmware-qca9984_20230804-1_aarch64_cortex-a53.ipk
+Size: 519974
+SHA256sum: 391fa9022c9e16c240d9db328d4b44ce53372f021aada94e07a6314fac76583d
+Description:  ath10k qca9984 firmware
+
+Package: ath10k-firmware-qca99x0
+Version: 20230804-1
+Depends: libc, ath10k-board-qca99x0
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: ath10k-firmware-qca99x0
+LicenseFiles: LICENSE.QualcommAtheros_ath10k
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 373679
+Filename: ath10k-firmware-qca99x0_20230804-1_aarch64_cortex-a53.ipk
+Size: 371927
+SHA256sum: f81a1685c4990dbe8e8f25cb451b58d33acc3eea786f51bcde01a7a39fa5c953
+Description:  ath10k qca99x0 firmware
+
+Package: ath11k-firmware-qca6390
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: ath11k-firmware-qca6390
+LicenseFiles: LICENCE.atheros_firmware
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1767498
+Filename: ath11k-firmware-qca6390_20230804-1_aarch64_cortex-a53.ipk
+Size: 1751314
+SHA256sum: 7db62011a3c43f0245986aeb3eb4cfb5f8061993c6528251762f1a55ff57541f
+Description:  QCA6390 ath11k firmware
+
+Package: ath11k-firmware-wcn6750
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: ath11k-firmware-wcn6750
+LicenseFiles: LICENCE.atheros_firmware
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 3671145
+Filename: ath11k-firmware-wcn6750_20230804-1_aarch64_cortex-a53.ipk
+Size: 3661957
+SHA256sum: 53a595ad9ee48586819d3784e12b4c0da2af8606e637d615639f53031b050ca9
+Description:  WCN6750 ath11k firmware
+
+Package: ath11k-firmware-wcn6855
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: ath11k-firmware-wcn6855
+LicenseFiles: LICENCE.atheros_firmware
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 3171839
+Filename: ath11k-firmware-wcn6855_20230804-1_aarch64_cortex-a53.ipk
+Size: 3152821
+SHA256sum: 02d6102a10f853901fdd7a731d0d4010c9faae7f2c7f363fa1b24e8617b29745
+Description:  WCN6855 ath11k firmware
+
+Package: ath6k-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: ath6k-firmware
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 712091
+Filename: ath6k-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 712841
+SHA256sum: a74a7e5290e82deb5acffe91dea0c1dabc2b204e6e0a4df159dcec733f2f2c71
+Description:  AR600X firmware
+
+Package: ath9k-htc-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: ath9k-htc-firmware
+LicenseFiles: LICENCE.open-ath9k-htc-firmware
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 61872
+Filename: ath9k-htc-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 62237
+SHA256sum: 0dfaf7e389836f11008e7e567fe929c5253c191fe53dedb3f2a1daa82ed6f772
+Description:  AR9271/AR7010 firmware
+
+Package: bnx2-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: bnx2-firmware
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 105162
+Filename: bnx2-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 105825
+SHA256sum: e8a923d36a5bb16916fdd8a5795816315af6f0ae5b595cf074917d69154fb6d2
+Description:  Broadcom BCM5706/5708/5709/5716 firmware
+
+Package: bnx2x-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: bnx2x-firmware
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 2421816
+Filename: bnx2x-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 2415503
+SHA256sum: 4389154f816567889e1461e350df9c4c1514a4bc2b9d9113f56736c183283710
+Description:  =QLogic 5771x/578xx firmware
+
+Package: brcmfmac-firmware-4329-sdio
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: brcmfmac-firmware-4329-sdio
+LicenseFiles: LICENCE.broadcom_bcm43xx
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 177012
+Filename: brcmfmac-firmware-4329-sdio_20230804-1_aarch64_cortex-a53.ipk
+Size: 177849
+SHA256sum: 150b1b1dce96ac9c7194bc65001d5ff2d9286b91469e654b36d56f0ded652575
+Description:  Broadcom BCM4329 FullMac SDIO firmware
+
+Package: brcmfmac-firmware-4339-sdio
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: brcmfmac-firmware-4339-sdio
+LicenseFiles: LICENCE.cypressb
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 342111
+Filename: brcmfmac-firmware-4339-sdio_20230804-1_aarch64_cortex-a53.ipk
+Size: 342430
+SHA256sum: 21855fd3d4d0871ef7b1b346639cf71129dae553f5735982c91af421c77b82d9
+Description:  Broadcom 4339 FullMAC SDIO firmware
+
+Package: brcmfmac-firmware-43430a0-sdio
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: brcmfmac-firmware-43430a0-sdio
+LicenseFiles: LICENCE.broadcom_bcm43xx
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 259119
+Filename: brcmfmac-firmware-43430a0-sdio_20230804-1_aarch64_cortex-a53.ipk
+Size: 259925
+SHA256sum: cff5d205ebd4e12cbb9873acbcfa253d6ae1b6b354c609e3cce0a4bfcb190109
+Description:  Broadcom BCM43430a0 FullMac SDIO firmware
+
+Package: brcmfmac-firmware-43602a1-pcie
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: brcmfmac-firmware-43602a1-pcie
+LicenseFiles: LICENCE.broadcom_bcm43xx
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 370269
+Filename: brcmfmac-firmware-43602a1-pcie_20230804-1_aarch64_cortex-a53.ipk
+Size: 370423
+SHA256sum: 1d1277912661382d67707e7a07ea0a36db38c45a7a75db9a1d21c4abfebecef9
+Description:  Broadcom 43602a1 FullMAC PCIe firmware
+
+Package: brcmfmac-firmware-4366b1-pcie
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: brcmfmac-firmware-4366b1-pcie
+LicenseFiles: LICENCE.broadcom_bcm43xx
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 637322
+Filename: brcmfmac-firmware-4366b1-pcie_20230804-1_aarch64_cortex-a53.ipk
+Size: 637065
+SHA256sum: 30b3001edbffc27be7120fab4783904390166c2da75ce3dcbb9cc704313ab38a
+Description:  Broadcom 4366b1 FullMAC PCIe firmware
+
+Package: brcmfmac-firmware-4366c0-pcie
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: brcmfmac-firmware-4366c0-pcie
+LicenseFiles: LICENCE.broadcom_bcm43xx
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 647585
+Filename: brcmfmac-firmware-4366c0-pcie_20230804-1_aarch64_cortex-a53.ipk
+Size: 647276
+SHA256sum: 19fa5f33804fb1ab4fa73826d199c0b5d660eff825ba365538f2f3f4305c0a86
+Description:  Broadcom 4366c0 FullMAC PCIe firmware
+
+Package: brcmfmac-firmware-usb
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: brcmfmac-firmware-usb
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 502980
+Filename: brcmfmac-firmware-usb_20230804-1_aarch64_cortex-a53.ipk
+Size: 503694
+SHA256sum: 8559cfd8f365a0a0f9b2fe96cfc1aab78b49620485022a27da2e6a62e0cf016a
+Description:  Broadcom BCM43xx fullmac USB firmware
+
+Package: brcmfmac-nvram-43430-sdio
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: brcmfmac-nvram-43430-sdio
+LicenseFiles: LICENCE.broadcom_bcm43xx
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1393
+Filename: brcmfmac-nvram-43430-sdio_20230804-1_aarch64_cortex-a53.ipk
+Size: 2162
+SHA256sum: cdef07903b132fd27688bf1adcdd25701144f8df56a569c2de4caa8d6dd02a75
+Description:  Broadcom BCM43430 SDIO NVRAM
+
+Package: brcmfmac-nvram-43455-sdio
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: brcmfmac-nvram-43455-sdio
+LicenseFiles: LICENCE.broadcom_bcm43xx
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 2528
+Filename: brcmfmac-nvram-43455-sdio_20230804-1_aarch64_cortex-a53.ipk
+Size: 3322
+SHA256sum: 926caafc23005fb91629cd116df7088a2129ccb6976dc82ed66da0a2ea9af7a6
+Description:  Broadcom BCM43455 SDIO NVRAM
+
+Package: brcmsmac-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: brcmsmac-firmware
+LicenseFiles: LICENCE.broadcom_bcm43xx
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 42177
+Filename: brcmsmac-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 42498
+SHA256sum: 68c8049b1ee0337dc61f6abb286cce05095c054d02f18c766028606e9104c9de
+Description:  Broadcom BCM43xx softmac PCIe firmware
+
+Package: carl9170-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: carl9170-firmware
+LicenseFiles: carl9170fw/GPL
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 9761
+Filename: carl9170-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 10523
+SHA256sum: 5b8def44c35c6b55f8c467934037c8b4dfd7e66e13d18b3f8284dddd09a286af
+Description:  AR9170 firmware
+
+Package: e100-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: e100-firmware
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 834
+Filename: e100-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 1567
+SHA256sum: 47e8463639b15e771f5c2baffc848522315a01d06867a588141cedc4449a7782
+Description:  Intel e100
+
+Package: edgeport-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: edgeport-firmware
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 18898
+Filename: edgeport-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 19590
+SHA256sum: 3edd5db5b831618fd6746d0f3abcbd305c23dec992544121ff1cfc781e9c0b1c
+Description:  USB Inside Out Edgeport Serial Driver firmware
+
+Package: eip197-mini-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: eip197-mini-firmware
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 425
+Filename: eip197-mini-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 1156
+SHA256sum: ba11e94be06f73323cc078b5d2ee46a01f40ee9eaeb9caefd599dc2fb9f24b0e
+Description:  Inside Secure EIP197 mini firmware
+
+Package: ibt-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: ibt-firmware
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 16369053
+Filename: ibt-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 16368087
+SHA256sum: b5591e7b9543a57a9063a531bdeef87e0511770fe003cdc69009167fc4119254
+Description:  Intel bluetooth firmware
+
+Package: iwl3945-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: iwl3945-firmware
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 63572
+Filename: iwl3945-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 64218
+SHA256sum: 38de9aad921cab98602dadde545e50944a4bf08c8ff9345f690ee2990ba5d4e1
+Description:  Intel IWL3945 firmware
+
+Package: iwl4965-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: iwl4965-firmware
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 78623
+Filename: iwl4965-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 79195
+SHA256sum: 21d26c862538932462f468b08a13b9dc9a5dbd21c57d6a3a1ad643739f94b7bb
+Description:  Intel IWL4965 firmware
+
+Package: iwlwifi-firmware-ax200
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: iwlwifi-firmware-ax200
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 532907
+Filename: iwlwifi-firmware-ax200_20230804-1_aarch64_cortex-a53.ipk
+Size: 532281
+SHA256sum: 159513db2c5111cd6fc0ba4931ee810fadff6ce33605d8be17b922542f47f112
+Description:  Intel AX200 firmware
+
+Package: iwlwifi-firmware-ax201
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: iwlwifi-firmware-ax201
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 539865
+Filename: iwlwifi-firmware-ax201_20230804-1_aarch64_cortex-a53.ipk
+Size: 539212
+SHA256sum: 1ab8f4d2dcbedfe6f094881c51cd165181675bc320536571d6fe9624a28aff8b
+Description:  Intel AX201 firmware
+
+Package: iwlwifi-firmware-ax210
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: iwlwifi-firmware-ax210
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 596343
+Filename: iwlwifi-firmware-ax210_20230804-1_aarch64_cortex-a53.ipk
+Size: 595488
+SHA256sum: f43cc450e55d368e0df9375202451cf993d5e085a4fea571ae13876318eeca76
+Description:  Intel AX210 firmware
+
+Package: iwlwifi-firmware-iwl1000
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: iwlwifi-firmware-iwl1000
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 176985
+Filename: iwlwifi-firmware-iwl1000_20230804-1_aarch64_cortex-a53.ipk
+Size: 177656
+SHA256sum: 2bcc0ed8344dd5edc4c8cfee13c5c2674cc46fbfcea5529402d20785fe2bc420
+Description:  Intel Centrino Wireless-N 1000 firmware
+
+Package: iwlwifi-firmware-iwl100
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: iwlwifi-firmware-iwl100
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 176990
+Filename: iwlwifi-firmware-iwl100_20230804-1_aarch64_cortex-a53.ipk
+Size: 177672
+SHA256sum: 44dc52e1e344410a402e543e27f53015aba7bb53ca25072b23ce10d1365360b0
+Description:  Intel Centrino Wireless-N 100 firmware
+
+Package: iwlwifi-firmware-iwl105
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: iwlwifi-firmware-iwl105
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 332942
+Filename: iwlwifi-firmware-iwl105_20230804-1_aarch64_cortex-a53.ipk
+Size: 333285
+SHA256sum: 91b6faed20e80c874b89dce9b6301ed7224f0fb8ee0fbb27c71ee82b7f7fb99e
+Description:  Intel Centrino Wireless-N 105 firmware
+
+Package: iwlwifi-firmware-iwl135
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: iwlwifi-firmware-iwl135
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 341796
+Filename: iwlwifi-firmware-iwl135_20230804-1_aarch64_cortex-a53.ipk
+Size: 342016
+SHA256sum: b91f01f3a93eec69663e3e8c08352877d04a3ccf0f0987a36f67fc3d3d7e40bb
+Description:  Intel Centrino Wireless-N 135 firmware
+
+Package: iwlwifi-firmware-iwl2000
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: iwlwifi-firmware-iwl2000
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 338719
+Filename: iwlwifi-firmware-iwl2000_20230804-1_aarch64_cortex-a53.ipk
+Size: 339102
+SHA256sum: 08b81bd1d96f5bd7ddf56d09eb380d0aa2b36e5256d9ec792da087ac70309923
+Description:  Intel Centrino Wireless-N 2200 firmware
+
+Package: iwlwifi-firmware-iwl2030
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: iwlwifi-firmware-iwl2030
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 347305
+Filename: iwlwifi-firmware-iwl2030_20230804-1_aarch64_cortex-a53.ipk
+Size: 347757
+SHA256sum: d1b1497e964c7ba160597061eb5f7f956673fc1db0f608b34c5849c51481bfb0
+Description:  Intel Centrino Wireless-N 2230 firmware
+
+Package: iwlwifi-firmware-iwl3160
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: iwlwifi-firmware-iwl3160
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 465839
+Filename: iwlwifi-firmware-iwl3160_20230804-1_aarch64_cortex-a53.ipk
+Size: 466021
+SHA256sum: a667c65339d5f39defdafa5d05358a38b0ff284eef58cae31c981790ae285ab5
+Description:  Intel Wireless 3160 firmware
+
+Package: iwlwifi-firmware-iwl3168
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: iwlwifi-firmware-iwl3168
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 451506
+Filename: iwlwifi-firmware-iwl3168_20230804-1_aarch64_cortex-a53.ipk
+Size: 451408
+SHA256sum: b3f1edc2670926fc23cb16ab6f9a39e0f04f8ba09e0fe40a90d1a110d8c8fcce
+Description:  Intel Wireless 3168 firmware
+
+Package: iwlwifi-firmware-iwl5000
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: iwlwifi-firmware-iwl5000
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 177061
+Filename: iwlwifi-firmware-iwl5000_20230804-1_aarch64_cortex-a53.ipk
+Size: 177794
+SHA256sum: 42da5b0d7b82897a63b2dfe5cb7a28865a45b1e28db0143bf6e8b66f2622ca8d
+Description:  Intel Wireless 5100AGN 5300AGN and 5350AGN firmware
+
+Package: iwlwifi-firmware-iwl5150
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: iwlwifi-firmware-iwl5150
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 174126
+Filename: iwlwifi-firmware-iwl5150_20230804-1_aarch64_cortex-a53.ipk
+Size: 174783
+SHA256sum: 45a67c7c105eb8720eb8c28ce8d2eb665971b19b92153dc503dfdd21a0bdafa3
+Description:  Intel Wireless Wi-Fi 5150AGN firmware
+
+Package: iwlwifi-firmware-iwl6000g2
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: iwlwifi-firmware-iwl6000g2
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 212875
+Filename: iwlwifi-firmware-iwl6000g2_20230804-1_aarch64_cortex-a53.ipk
+Size: 213358
+SHA256sum: 0d670220c19b1f3eabb95cbf72c68923052d6b6d3b01147b938a860dec5d1fe3
+Description:  Intel Centrino 6300 and 6200 firmware
+
+Package: iwlwifi-firmware-iwl6000g2a
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: iwlwifi-firmware-iwl6000g2a
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 324147
+Filename: iwlwifi-firmware-iwl6000g2a_20230804-1_aarch64_cortex-a53.ipk
+Size: 324221
+SHA256sum: d98ea79e9fbe52573ac2a9fad9ad44f9f9e1b36ae2652c882ba8816981f92afd
+Description:  Intel Centrino 6205 firmware
+
+Package: iwlwifi-firmware-iwl6000g2b
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: iwlwifi-firmware-iwl6000g2b
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 327878
+Filename: iwlwifi-firmware-iwl6000g2b_20230804-1_aarch64_cortex-a53.ipk
+Size: 328086
+SHA256sum: cfaf701cb3a718cbab9a19a96e5ff7eca34d69dfb112d7f7bd734cc29b2565b5
+Description:  Intel Centrino 6230 1030 130 and 6235 firmware
+
+Package: iwlwifi-firmware-iwl6050
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: iwlwifi-firmware-iwl6050
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 219214
+Filename: iwlwifi-firmware-iwl6050_20230804-1_aarch64_cortex-a53.ipk
+Size: 219606
+SHA256sum: 8207473f8fda69c5d9ec0b90d7d3f3dc8d4ffb6eceb06f4b0cdfb39b820274d8
+Description:  Intel Centrino 6150 and 6250 firmware
+
+Package: iwlwifi-firmware-iwl7260
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: iwlwifi-firmware-iwl7260
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 492759
+Filename: iwlwifi-firmware-iwl7260_20230804-1_aarch64_cortex-a53.ipk
+Size: 492621
+SHA256sum: 3dbb850b6a4a5c9fe61bd6dfe9f1394ff0d731bc9ee4b3b50c32b2e32438b852
+Description:  Intel Wireless 7260 firmware
+
+Package: iwlwifi-firmware-iwl7265
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: iwlwifi-firmware-iwl7265
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 534257
+Filename: iwlwifi-firmware-iwl7265_20230804-1_aarch64_cortex-a53.ipk
+Size: 533760
+SHA256sum: 2c2b187222984ee49fa066840622c76ae8c96d3cbf65c657257ad98c90ba2ad7
+Description:  Intel Wireless 7265 firmware
+
+Package: iwlwifi-firmware-iwl7265d
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: iwlwifi-firmware-iwl7265d
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 463064
+Filename: iwlwifi-firmware-iwl7265d_20230804-1_aarch64_cortex-a53.ipk
+Size: 462732
+SHA256sum: 1f535fb4b33fdb8353452944459deb103ea1cf45bafd7f2e49e1c6d5abff0eb9
+Description:  Intel Wireless 7265D and 3165 firmware
+
+Package: iwlwifi-firmware-iwl8260c
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: iwlwifi-firmware-iwl8260c
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 960333
+Filename: iwlwifi-firmware-iwl8260c_20230804-1_aarch64_cortex-a53.ipk
+Size: 958326
+SHA256sum: 8d80238148131725beb9499c10a1c0cc1afeb4aa5fa3010beb6c3d3443c84469
+Description:  Intel Wireless 8260 and 4165 firmware
+
+Package: iwlwifi-firmware-iwl8265
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: iwlwifi-firmware-iwl8265
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 967350
+Filename: iwlwifi-firmware-iwl8265_20230804-1_aarch64_cortex-a53.ipk
+Size: 965760
+SHA256sum: 4a07e649c2ca7cdc8aa40bd26af7c9fc601de4fed41a240f6212fa1049fc90d1
+Description:  Intel Wireless 8265 firmware
+
+Package: iwlwifi-firmware-iwl9000
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: iwlwifi-firmware-iwl9000
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 629194
+Filename: iwlwifi-firmware-iwl9000_20230804-1_aarch64_cortex-a53.ipk
+Size: 628208
+SHA256sum: c2b0460115705ea86f34647f276c073073b571d2075561167a30363d62eab612
+Description:  Intel Wireless 9000 firmware
+
+Package: iwlwifi-firmware-iwl9260
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: iwlwifi-firmware-iwl9260
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 624233
+Filename: iwlwifi-firmware-iwl9260_20230804-1_aarch64_cortex-a53.ipk
+Size: 623320
+SHA256sum: 87fe1fb34144223683f9fb39f8c2448f938b5dd96c8c445a7a365fcb971c11a9
+Description:  Intel Wireless 9260 firmware
+
+Package: jansson4
+Version: 2.14-3
+Depends: libc
+Provides: jansson
+Source: feeds/base/package/libs/jansson
+SourceName: jansson
+License: MIT
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1679419702
+ABIVersion: 4
+CPE-ID: cpe:/a:jansson_project:jansson
+Architecture: aarch64_cortex-a53
+Installed-Size: 24896
+Filename: jansson4_2.14-3_aarch64_cortex-a53.ipk
+Size: 25581
+SHA256sum: ca16d89b96861b804298417abb4054d1a500c9ebbc855a620332c5c69ef58130
+Description:  Jansson is a C library for encoding, decoding and manipulating JSON data
+
+Package: jshn
+Version: 2023-05-23-75a3b870-1
+Depends: libc, libjson-c5, libubox20230523, libblobmsg-json20230523
+Source: feeds/base/package/libs/libubox
+SourceName: jshn
+License: ISC
+Section: utils
+SourceDateEpoch: 1686600618
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 7119
+Filename: jshn_2023-05-23-75a3b870-1_aarch64_cortex-a53.ipk
+Size: 7755
+SHA256sum: a2cbfac35015a1e7236d3fd7f81fac658d39bfba9a3b9cd1a11bd0e5e9696f26
+Description:  Library for parsing and generating JSON from shell scripts
+
+Package: libblobmsg-json20230523
+Version: 2023-05-23-75a3b870-1
+Depends: libc, libjson-c5, libubox20230523
+Provides: libblobmsg-json
+Source: feeds/base/package/libs/libubox
+SourceName: libblobmsg-json
+License: ISC
+Section: libs
+SourceDateEpoch: 1686600618
+ABIVersion: 20230523
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 4379
+Filename: libblobmsg-json20230523_2023-05-23-75a3b870-1_aarch64_cortex-a53.ipk
+Size: 5006
+SHA256sum: 11365b7691f23d524cb39595173edeea5341a8254cadbd8d1687b6b0b2ca4a0b
+Description:  blobmsg <-> json conversion library
+
+Package: libertas-sdio-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: libertas-sdio-firmware
+LicenseFiles: LICENCE.Marvell
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 348536
+Filename: libertas-sdio-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 349462
+SHA256sum: cdb67684a79e5e964829184767938facdb8a8f66d2a544adf2909caad181b63a
+Description:  Marvell 8385/8686/8688 SDIO firmware
+
+Package: libertas-spi-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: libertas-spi-firmware
+LicenseFiles: LICENCE.Marvell
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 92241
+Filename: libertas-spi-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 93081
+SHA256sum: 0f03ce7d02ff3ccbcf9854bcf3e319df4bde40707ccccc71a2924d07ff3ecedd
+Description:  Marvell 8686 SPI firmware
+
+Package: libertas-usb-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: libertas-usb-firmware
+LicenseFiles: LICENCE.Marvell
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 216571
+Filename: libertas-usb-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 217330
+SHA256sum: 6644320bb8e15dba2a48f6619ba5d8b6e500e8cb81bee21dbca2acb851f99d13
+Description:  Marvell 8388/8682 USB firmware
+
+Package: libgmp10
+Version: 6.2.1-1
+Depends: libc
+Provides: libgmp
+Source: feeds/base/package/libs/gmp
+SourceName: libgmp
+License: GPL-2.0-or-later
+Section: libs
+SourceDateEpoch: 1695847021
+ABIVersion: 10
+CPE-ID: cpe:/a:gmplib:gmp
+Architecture: aarch64_cortex-a53
+Installed-Size: 220466
+Filename: libgmp10_6.2.1-1_aarch64_cortex-a53.ipk
+Size: 221083
+SHA256sum: 3865b885b1ba316bb9b0e647f9110f1e1e9be10e59a5f850deb9a702b1be2806
+Description:  GMP is a free library for arbitrary precision arithmetic, operating on
+ signed integers, rational numbers, and floating point numbers.
+
+Package: libjson-c5
+Version: 0.16-3
+Depends: libc
+Provides: libjson-c
+Source: feeds/base/package/libs/libjson-c
+SourceName: libjson-c
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1720283474
+ABIVersion: 5
+CPE-ID: cpe:/a:json-c:json-c
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 28901
+Filename: libjson-c5_0.16-3_aarch64_cortex-a53.ipk
+Size: 29704
+SHA256sum: 399909892267e86778ab3c6876555e5f3d8feff65594fe4f52b70b9587a979fe
+Description:  This package contains a library for javascript object notation backends.
+
+Package: libjson-script20230523
+Version: 2023-05-23-75a3b870-1
+Depends: libc, libubox20230523
+Provides: libjson-script
+Source: feeds/base/package/libs/libubox
+SourceName: libjson-script
+License: ISC
+Section: utils
+SourceDateEpoch: 1686600618
+ABIVersion: 20230523
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 5671
+Filename: libjson-script20230523_2023-05-23-75a3b870-1_aarch64_cortex-a53.ipk
+Size: 6287
+SHA256sum: 9a249b5475a500063f2ebe0cecbc1f41730cfd99f730a864ab2951513b95f30e
+Description:  Minimalistic JSON based scripting engine
+
+Package: libltdl7
+Version: 2.4.7-1
+Depends: libc
+Provides: libltdl
+Source: feeds/base/package/libs/libtool
+SourceName: libltdl
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1657472867
+ABIVersion: 7
+CPE-ID: cpe:/a:gnu:libtool
+Architecture: aarch64_cortex-a53
+Installed-Size: 15358
+Filename: libltdl7_2.4.7-1_aarch64_cortex-a53.ipk
+Size: 15968
+SHA256sum: 0b89707dd241437b43dcb73eab6bdbc0bef36db224604cf74ef42266258bd381
+Description:  A generic dynamic object loading library
+
+Package: liblua5.1.5
+Version: 5.1.5-11
+Depends: libc
+Provides: liblua
+Source: feeds/base/package/utils/lua
+SourceName: liblua
+License: MIT
+LicenseFiles: COPYRIGHT
+Section: libs
+SourceDateEpoch: 1714513571
+ABIVersion: 5.1.5
+CPE-ID: cpe:/a:lua:lua
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 78140
+Filename: liblua5.1.5_5.1.5-11_aarch64_cortex-a53.ipk
+Size: 78983
+SHA256sum: cd159c295a6c2f7d72d963c67523fa145abcd398583ac5870f5c98a5d098c07e
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains the Lua shared libraries, needed by other programs.
+
+Package: libmbedtls12
+Version: 2.28.10-1
+Depends: libc
+Provides: libmbedtls
+Source: feeds/base/package/libs/mbedtls
+SourceName: libmbedtls
+License: GPL-2.0-or-later
+LicenseFiles: gpl-2.0.txt
+Section: libs
+SourceDateEpoch: 1747333961
+ABIVersion: 12
+CPE-ID: cpe:/a:arm:mbed_tls
+Architecture: aarch64_cortex-a53
+Installed-Size: 256680
+Filename: libmbedtls12_2.28.10-1_aarch64_cortex-a53.ipk
+Size: 256944
+SHA256sum: 1f162e4f6303253f5e7423098e1111fe156a509438ad2d3e9dcf022037acfa6f
+Description:  The aim of the mbedtls project is to provide a quality, open-source
+ cryptographic library written in C and targeted at embedded systems.
+ This package contains the mbedtls library.
+
+Package: libmnl0
+Version: 1.0.5-1
+Depends: libc
+Provides: libmnl
+Source: feeds/base/package/libs/libmnl
+SourceName: libmnl
+License: LGPL-2.1+
+Section: libs
+SourceDateEpoch: 1662478604
+ABIVersion: 0
+CPE-ID: cpe:/a:netfilter:libmnl
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 7213
+Filename: libmnl0_1.0.5-1_aarch64_cortex-a53.ipk
+Size: 8421
+SHA256sum: cefa34c7cbdbaa0df17d5b5e4e7f070899342c70dda8b81658bf5e96e56edba9
+Description:  libmnl is a minimalistic user-space library oriented to Netlink developers.
+ There are a lot of common tasks in parsing, validating, constructing of
+ both the Netlink header and TLVs that are repetitive and easy to get wrong.
+ This library aims to provide simple helpers that allows you to re-use code
+ and to avoid re-inventing the wheel. The main features of this library are:
+ .
+ * Small: the shared library requires around 30KB for an x86-based computer.
+ .
+ * Simple: this library avoids complexity and elaborated abstractions that
+ tend to hide Netlink details.
+ .
+ * Easy to use: the library simplifies the work for Netlink-wise developers.
+ It provides functions to make socket handling, message building, validating,
+ parsing and sequence tracking, easier.
+ .
+ * Easy to re-use: you can use the library to build your own abstraction layer
+ on top of this library.
+ .
+ * Decoupling: the interdependency of the main bricks that compose the library
+ is reduced, i.e. the library provides many helpers, but the programmer is not
+ forced to use them.
+
+Package: libnetfilter-conntrack3
+Version: 1.0.9-2
+Depends: libc, libnfnetlink0, kmod-nf-conntrack-netlink, libmnl0
+Provides: libnetfilter-conntrack
+Source: feeds/base/package/libs/libnetfilter-conntrack
+SourceName: libnetfilter-conntrack
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1695847021
+ABIVersion: 3
+CPE-ID: cpe:/a:netfilter:libnetfilter_conntrack
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 39676
+Filename: libnetfilter-conntrack3_1.0.9-2_aarch64_cortex-a53.ipk
+Size: 40553
+SHA256sum: ff47b14be834f6563f639f2916370e9ec3224bde856ec7a6a6cbf0d25ca1ccf6
+Description:  libnetfilter_conntrack is a userspace library providing a programming
+ interface (API) to the in-kernel connection tracking state table. The
+ library libnetfilter_conntrack has been previously known as
+ libnfnetlink_conntrack and libctnetlink. This library is currently
+ used by conntrack-tools among many other applications.
+
+Package: libnettle8
+Version: 3.9.1-1
+Depends: libc, libgmp10
+Provides: libnettle
+Source: feeds/base/package/libs/nettle
+SourceName: libnettle
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1693172967
+ABIVersion: 8
+CPE-ID: cpe:/a:nettle_project:nettle
+Architecture: aarch64_cortex-a53
+Installed-Size: 356341
+Filename: libnettle8_3.9.1-1_aarch64_cortex-a53.ipk
+Size: 356338
+SHA256sum: 2447e0c9c316797ad99d5ec1ab09e5235e4848514888920cc8f455bb1b5d464b
+Description:  GNU crypto library
+
+Package: libnfnetlink0
+Version: 1.0.2-1
+Depends: libc
+Provides: libnfnetlink
+Source: feeds/base/package/libs/libnfnetlink
+SourceName: libnfnetlink
+License: GPL-2.0+
+Section: libs
+SourceDateEpoch: 1662478605
+ABIVersion: 0
+CPE-ID: cpe:/a:netfilter:libnfnetlink
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 10682
+Filename: libnfnetlink0_1.0.2-1_aarch64_cortex-a53.ipk
+Size: 11464
+SHA256sum: da9479bc0ca57a5d1df8dc05b4139bc3370eaae97a3946b361e2f0c0570f6f3d
+Description:  libnfnetlink is is the low-level library for netfilter related kernel/userspace communication.
+ It provides a generic messaging infrastructure for in-kernel netfilter subsystems
+ (such as nfnetlink_log, nfnetlink_queue, nfnetlink_conntrack) and their respective users
+ and/or management tools in userspace.
+
+Package: libnftnl11
+Version: 1.2.6-1
+Depends: libc, libmnl0
+Provides: libnftnl
+Source: feeds/base/package/libs/libnftnl
+SourceName: libnftnl
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1689833051
+ABIVersion: 11
+CPE-ID: cpe:/a:netfilter:libnftnl
+Maintainer: Steven Barth <steven@midlink.org>
+Architecture: aarch64_cortex-a53
+Installed-Size: 64520
+Filename: libnftnl11_1.2.6-1_aarch64_cortex-a53.ipk
+Size: 65221
+SHA256sum: e212ed38a92644501fe5cf27b8c109ea7447e94df2d0c7bb80d17c00423bdcda
+Description:  libnftnl is a userspace library providing a low-level netlink
+ programming interface (API) to the in-kernel nf_tables subsystem.
+
+Package: libnl-tiny1
+Version: 2023-07-27-bc92a280-1
+Depends: libc
+Provides: libnl-tiny
+Source: feeds/base/package/libs/libnl-tiny
+SourceName: libnl-tiny
+License: LGPL-2.1
+Section: libs
+SourceDateEpoch: 1690452362
+ABIVersion: 1
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 17074
+Filename: libnl-tiny1_2023-07-27-bc92a280-1_aarch64_cortex-a53.ipk
+Size: 17732
+SHA256sum: 6012a4932f0f83b6c777fed4a835464412639ac08825c33ee1954f42c852df03
+Description:  This package contains a stripped down version of libnl
+
+Package: libopenssl3
+Version: 3.0.16-1
+Depends: libc
+Provides: libopenssl
+Source: feeds/base/package/libs/openssl
+SourceName: libopenssl
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1749649395
+ABIVersion: 3
+CPE-ID: cpe:/a:openssl:openssl
+Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1771394
+Filename: libopenssl3_3.0.16-1_aarch64_cortex-a53.ipk
+Size: 1761197
+SHA256sum: ff6380863a0c404bb50a0c95cfa0a0225bfdfe9c0ca7bdfca477355613d9fbd8
+Description:  The OpenSSL Project is a collaborative effort to develop a robust,
+ commercial-grade, full-featured, and Open Source toolkit implementing the
+ Transport Layer Security (TLS) protocol as well as a full-strength
+ general-purpose cryptography library.
+ This package contains the OpenSSL shared libraries, needed by other programs.
+
+Package: libopenssl-afalg
+Version: 3.0.16-1
+Depends: libc, libopenssl3, libopenssl-conf, kmod-crypto-user
+Source: feeds/base/package/libs/openssl
+SourceName: libopenssl-afalg
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1749649395
+CPE-ID: cpe:/a:openssl:openssl
+Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 5715
+Filename: libopenssl-afalg_3.0.16-1_aarch64_cortex-a53.ipk
+Size: 6846
+SHA256sum: 156ce48fa128a488fd06a80746d51d8b153bd2092b270df149d4b402b23fe2e1
+Description:  This package adds an engine that enables hardware acceleration
+ through the AF_ALG kernel interface.
+ See https://www.openssl.org/docs/man3.0/man5/config.html#Engine-Configuration
+ and https://openwrt.org/docs/techref/hardware/cryptographic.hardware.accelerators
+ The engine_id is "afalg"
+
+Package: libopenssl-conf
+Version: 3.0.16-1
+Depends: libc, libopenssl3
+Source: feeds/base/package/libs/openssl
+SourceName: libopenssl-conf
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1749649395
+CPE-ID: cpe:/a:openssl:openssl
+Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 5459
+Filename: libopenssl-conf_3.0.16-1_aarch64_cortex-a53.ipk
+Size: 6468
+SHA256sum: 0f531fb9b769c7c52ac2b92eead4edbf71b8d744589cff763246aca92d7e2051
+Description:  The OpenSSL Project is a collaborative effort to develop a robust,
+ commercial-grade, full-featured, and Open Source toolkit implementing the
+ Transport Layer Security (TLS) protocol as well as a full-strength
+ general-purpose cryptography library.
+ This package installs the OpenSSL configuration file /etc/ssl/openssl.cnf.
+
+Package: libopenssl-devcrypto
+Version: 3.0.16-1
+Depends: libc, libopenssl3, libopenssl-conf, kmod-cryptodev
+Source: feeds/base/package/libs/openssl
+SourceName: libopenssl-devcrypto
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1749649395
+CPE-ID: cpe:/a:openssl:openssl
+Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 9036
+Filename: libopenssl-devcrypto_3.0.16-1_aarch64_cortex-a53.ipk
+Size: 10120
+SHA256sum: 19291ba0d7a9925cba7239220cbbfb2a1b9f85960177c652e4b3d3987ed3bc15
+Description:  This package adds an engine that enables hardware acceleration
+ through the /dev/crypto kernel interface.
+ See https://www.openssl.org/docs/man3.0/man5/config.html#Engine-Configuration
+ and https://openwrt.org/docs/techref/hardware/cryptographic.hardware.accelerators
+ The engine_id is "devcrypto"
+
+Package: libopenssl-legacy
+Version: 3.0.16-1
+Depends: libc, libopenssl3, libopenssl-conf
+Source: feeds/base/package/libs/openssl
+SourceName: libopenssl-legacy
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1749649395
+CPE-ID: cpe:/a:openssl:openssl
+Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 32808
+Filename: libopenssl-legacy_3.0.16-1_aarch64_cortex-a53.ipk
+Size: 33737
+SHA256sum: c6c8b725b82a2bb2d82171fa07cf7103a449ce9fee1ccb4233037c054bb3edd4
+Description:  The OpenSSL legacy provider supplies OpenSSL implementations of algorithms that
+ have been deemed legacy. Such algorithms have commonly fallen out of use, have
+ been deemed insecure by the cryptography community, or something similar.  See
+ https://www.openssl.org/docs/man3.0/man7/OSSL_PROVIDER-legacy.html
+
+Package: libubox20230523
+Version: 2023-05-23-75a3b870-1
+Depends: libc
+Provides: libubox
+Source: feeds/base/package/libs/libubox
+SourceName: libubox
+License: ISC
+Section: libs
+SourceDateEpoch: 1686600618
+ABIVersion: 20230523
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 24498
+Filename: libubox20230523_2023-05-23-75a3b870-1_aarch64_cortex-a53.ipk
+Size: 25152
+SHA256sum: 2b0a9ae137e87c169fdb78086dc37d27ff365800665ecc392fc2bbcf830e3146
+Description:  Basic utility library
+
+Package: libubox-lua
+Version: 2023-05-23-75a3b870-1
+Depends: libc, libubox20230523, liblua5.1.5
+Source: feeds/base/package/libs/libubox
+SourceName: libubox-lua
+License: ISC
+Section: libs
+SourceDateEpoch: 1686600618
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 4551
+Filename: libubox-lua_2023-05-23-75a3b870-1_aarch64_cortex-a53.ipk
+Size: 5151
+SHA256sum: 57ac13f77417a8a43dc8d041445febc405ab360a1dfd31498b337d9469c5bcd9
+Description:  Lua binding for the OpenWrt Basic utility library
+
+Package: libubus20230605
+Version: 2023-06-05-f787c97b-1
+Depends: libc, libubox20230523
+Provides: libubus
+Source: feeds/base/package/system/ubus
+SourceName: libubus
+License: LGPL-2.1
+Section: libs
+SourceDateEpoch: 1695039918
+ABIVersion: 20230605
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 11596
+Filename: libubus20230605_2023-06-05-f787c97b-1_aarch64_cortex-a53.ipk
+Size: 12249
+SHA256sum: f5799e16c3ff05d2ce0db9f219ad92418cb64ed918538d5d084a66dcd9be5ad4
+Description:  OpenWrt RPC client library
+
+Package: libubus-lua
+Version: 2023-06-05-f787c97b-1
+Depends: libc, libubus20230605, liblua5.1.5
+Source: feeds/base/package/system/ubus
+SourceName: libubus-lua
+License: LGPL-2.1
+Section: libs
+SourceDateEpoch: 1695039918
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 7370
+Filename: libubus-lua_2023-06-05-f787c97b-1_aarch64_cortex-a53.ipk
+Size: 8103
+SHA256sum: ddda85567ea2b4025fdcba1fbe280f8f51c6ef2462de7f93daa1dfe0434f4aa5
+Description:  Lua binding for the OpenWrt RPC client
+
+Package: libuci20130104
+Version: 2023-08-10-5781664d-1
+Depends: libc, libubox20230523
+Provides: libuci
+Source: feeds/base/package/system/uci
+SourceName: libuci
+License: LGPL-2.1
+Section: libs
+SourceDateEpoch: 1691751214
+ABIVersion: 20130104
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 18300
+Filename: libuci20130104_2023-08-10-5781664d-1_aarch64_cortex-a53.ipk
+Size: 18986
+SHA256sum: 30cea5d33917d3f35f99b885773ac943d0f5756808cd5682844543325c19291e
+Description:  C library for the Unified Configuration Interface (UCI)
+
+Package: libuci-lua
+Version: 2023-08-10-5781664d-1
+Depends: libc, libuci20130104, liblua5.1.5
+Source: feeds/base/package/system/uci
+SourceName: libuci-lua
+License: LGPL-2.1
+Section: libs
+SourceDateEpoch: 1691751214
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 7514
+Filename: libuci-lua_2023-08-10-5781664d-1_aarch64_cortex-a53.ipk
+Size: 8197
+SHA256sum: 00f53539f7b803aad10b5b2473f185e29bc65b5d25318e28b92f19e5a54ce995
+Description:  Lua plugin for UCI
+
+Package: libucode20230711
+Version: 2024-07-11-1a8a0bcf-3
+Depends: libc, libjson-c5
+Provides: libucode
+Source: feeds/base/package/utils/ucode
+SourceName: libucode
+License: ISC
+Section: libs
+SourceDateEpoch: 1726863663
+ABIVersion: 20230711
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 78429
+Filename: libucode20230711_2024-07-11-1a8a0bcf-3_aarch64_cortex-a53.ipk
+Size: 79114
+SHA256sum: 06cf6f0719f48d53d61f73fe4e11e86a4ca430da63b2cfe8f9a88a969acd317e
+Description:  The libucode package provides the shared runtime library for the ucode interpreter.
+
+Package: libustream-mbedtls20201210
+Version: 2023-02-25-498f6e26-1
+Depends: libc, libubox20230523, libmbedtls12
+Conflicts: libustream-openssl, libustream-wolfssl
+Provides: libustream-mbedtls
+Source: feeds/base/package/libs/ustream-ssl
+SourceName: libustream-mbedtls
+License: ISC
+Section: libs
+SourceDateEpoch: 1677346646
+ABIVersion: 20201210
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 4910
+Filename: libustream-mbedtls20201210_2023-02-25-498f6e26-1_aarch64_cortex-a53.ipk
+Size: 5544
+SHA256sum: 3ab3288ab979918bd626223db745d64326afce7a2044df37e497a1de20539133
+Description:  ustream SSL Library (mbedtls)
+
+Package: libustream-openssl20201210
+Version: 2023-02-25-498f6e26-1
+Depends: libc, libubox20230523, libopenssl3
+Provides: libustream-openssl
+Source: feeds/base/package/libs/ustream-ssl
+SourceName: libustream-openssl
+License: ISC
+Section: libs
+SourceDateEpoch: 1677346646
+ABIVersion: 20201210
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 5038
+Filename: libustream-openssl20201210_2023-02-25-498f6e26-1_aarch64_cortex-a53.ipk
+Size: 5649
+SHA256sum: 902815fc3d3abbec477af865ec07625980244dcf337c9cddb1f4457da0e177ce
+Description:  ustream SSL Library (openssl)
+
+Package: libustream-wolfssl20201210
+Version: 2023-02-25-498f6e26-1
+Depends: libc, libubox20230523, libwolfssl5.7.6.e624513f
+Conflicts: libustream-openssl
+Provides: libustream-wolfssl
+Source: feeds/base/package/libs/ustream-ssl
+SourceName: libustream-wolfssl
+License: ISC
+Section: libs
+SourceDateEpoch: 1677346646
+ABIVersion: 20201210
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 4565
+Filename: libustream-wolfssl20201210_2023-02-25-498f6e26-1_aarch64_cortex-a53.ipk
+Size: 5199
+SHA256sum: ae0ce706dc18cad0ecdf1d8c781f63071c349e0cdd13fa07c0b2f0f2e14d7520
+Description:  ustream SSL Library (wolfssl)
+
+Package: libwolfssl5.7.6.e624513f
+Version: 5.7.6-stable-1
+Depends: libc
+Conflicts: libwolfsslcpu-crypto
+Provides: libcyassl, libwolfssl, libcyassl5.7.6.e624513f
+Source: feeds/base/package/libs/wolfssl
+SourceName: libwolfssl
+License: GPL-2.0-or-later
+LicenseFiles: LICENSING COPYING
+Section: libs
+SourceDateEpoch: 1749649395
+ABIVersion: 5.7.6.e624513f
+CPE-ID: cpe:/a:wolfssl:wolfssl
+Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 594808
+Filename: libwolfssl5.7.6.e624513f_5.7.6-stable-1_aarch64_cortex-a53.ipk
+Size: 592894
+SHA256sum: b70a0259730ab030a44a385438fd14a9cdbdffc11eec5d869678feab278ccaa6
+Description:  wolfSSL (formerly CyaSSL) is an SSL library optimized for small
+ footprint, both on disk and for memory use.
+
+Package: libwolfssl-benchmark
+Version: 5.7.6-stable-1
+Depends: libc, libwolfssl5.7.6.e624513f
+Source: feeds/base/package/libs/wolfssl
+SourceName: libwolfssl-benchmark
+License: GPL-2.0-or-later
+LicenseFiles: LICENSING COPYING
+Section: libs
+SourceDateEpoch: 1749649395
+CPE-ID: cpe:/a:wolfssl:wolfssl
+Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 20974
+Filename: libwolfssl-benchmark_5.7.6-stable-1_aarch64_cortex-a53.ipk
+Size: 21744
+SHA256sum: 9d9a70b5541046d12b0d66e334079926506a7d1415b61d5e78fbf7cbaeb4e07a
+Description:  This is the wolfssl benchmark utility.
+
+Package: libwolfsslcpu-crypto5.7.6.e624513f
+Version: 5.7.6-stable-1
+Depends: libc
+Provides: libwolfssl, libcyassl, libwolfsslcpu-crypto, libwolfssl5.7.6.e624513f, libcyassl5.7.6.e624513f
+Source: feeds/base/package/libs/wolfssl
+SourceName: libwolfsslcpu-crypto
+License: GPL-2.0-or-later
+LicenseFiles: LICENSING COPYING
+Section: libs
+SourceDateEpoch: 1749649395
+ABIVersion: 5.7.6.e624513f
+CPE-ID: cpe:/a:wolfssl:wolfssl
+Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 605199
+Filename: libwolfsslcpu-crypto5.7.6.e624513f_5.7.6-stable-1_aarch64_cortex-a53.ipk
+Size: 603679
+SHA256sum: ea6b10a48b4521bddecf43213ff0e793fc547ac0114678c0c4f2ffca2b672305
+Description:  wolfSSL (formerly CyaSSL) is an SSL library optimized for small
+ footprint, both on disk and for memory use.
+ This variant uses AES CPU instructions (Intel AESNI or ARMv8 Crypto Extension)
+
+Package: lua
+Version: 5.1.5-11
+Depends: libc, liblua5.1.5
+Source: feeds/base/package/utils/lua
+SourceName: lua
+License: MIT
+LicenseFiles: COPYRIGHT
+Section: lang
+SourceDateEpoch: 1714513571
+CPE-ID: cpe:/a:lua:lua
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 5171
+Filename: lua_5.1.5-11_aarch64_cortex-a53.ipk
+Size: 5892
+SHA256sum: 042a26a3318ce3b2492a9574c99824df55e06dab97cbae740003b9b28ff7e853
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains the Lua language interpreter.
+
+Package: luac
+Version: 5.1.5-11
+Depends: libc, liblua5.1.5
+Source: feeds/base/package/utils/lua
+SourceName: luac
+License: MIT
+LicenseFiles: COPYRIGHT
+Section: lang
+SourceDateEpoch: 1714513571
+CPE-ID: cpe:/a:lua:lua
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 5649
+Filename: luac_5.1.5-11_aarch64_cortex-a53.ipk
+Size: 6471
+SHA256sum: ffe0e3860416ba4c74cff4772321889885b87250229c0d87b881f8d91b183d95
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains the Lua language compiler.
+
+Package: lua-examples
+Version: 5.1.5-11
+Depends: libc, lua
+Source: feeds/base/package/utils/lua
+SourceName: lua-examples
+License: MIT
+LicenseFiles: COPYRIGHT
+Section: lang
+SourceDateEpoch: 1714513571
+CPE-ID: cpe:/a:lua:lua
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 5290
+Filename: lua-examples_5.1.5-11_aarch64_cortex-a53.ipk
+Size: 6179
+SHA256sum: d3478bba159dd04817956a12fcf3a5f403f3203e6d633e70146df72bd6908d87
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains Lua language examples.
+
+Package: mbedtls-util
+Version: 2.28.10-1
+Depends: libc, libmbedtls12
+Source: feeds/base/package/libs/mbedtls
+SourceName: mbedtls-util
+License: GPL-2.0-or-later
+LicenseFiles: gpl-2.0.txt
+Section: utils
+SourceDateEpoch: 1747333961
+CPE-ID: cpe:/a:arm:mbed_tls
+Architecture: aarch64_cortex-a53
+Installed-Size: 33499
+Filename: mbedtls-util_2.28.10-1_aarch64_cortex-a53.ipk
+Size: 34139
+SHA256sum: e72ea127a532989cc650b169a0752bc053a1fdd1017f2a22d889840136b6edb9
+Description:  The aim of the mbedtls project is to provide a quality, open-source
+ cryptographic library written in C and targeted at embedded systems.
+ This package contains mbedtls helper programs for private key and
+ CSR generation (gen_key, cert_req)
+
+Package: mt7601u-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: mt7601u-firmware
+LicenseFiles: LICENCE.mediatek
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 26435
+Filename: mt7601u-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 27169
+SHA256sum: 9ced2bd10ee8820730a52c3490158f025962c9c9f6ccb1739d1e1f8d434253f4
+Description:  MediaTek MT7601U firmware
+
+Package: mt7622bt-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: mt7622bt-firmware
+LicenseFiles: LICENCE.mediatek
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 53871
+Filename: mt7622bt-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 54743
+SHA256sum: da1c10a26072b59ac5ef1abf85381c53d8af9bb2daea200193557d7d9bdccf4f
+Description:  mt7622bt firmware
+
+Package: mt7921bt-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: mt7921bt-firmware
+LicenseFiles: LICENCE.mediatek
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 400754
+Filename: mt7921bt-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 401465
+SHA256sum: 1186adfd5f1a1eaa4126550abc030ed941be7d1e77e77be0b8258b24ef2d3a70
+Description:  mt7921bt firmware
+
+Package: mt7922bt-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: mt7922bt-firmware
+LicenseFiles: LICENCE.mediatek
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 512302
+Filename: mt7922bt-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 513215
+SHA256sum: 9e280f0455783a9f190ed495a98768f667415f514eb8ccebaabdc50c20219115
+Description:  mt7922bt firmware
+
+Package: mt7981-wo-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: mt7981-wo-firmware
+LicenseFiles: LICENCE.mediatek
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 52118
+Filename: mt7981-wo-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 48316
+SHA256sum: c3cd6555a5d0e5b85342d510f487c789886930d71af97c888a8b55f59dec736e
+Description:  MT7981 offload firmware
+
+Package: mt7986-wo-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: mt7986-wo-firmware
+LicenseFiles: LICENCE.mediatek
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 106388
+Filename: mt7986-wo-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 96358
+SHA256sum: 4bf25c0fb5462c357bd112e554d69c415e9d4d80cec7584288bb87b3d3f5368d
+Description:  MT7986 offload firmware
+
+Package: mwifiex-pcie-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: mwifiex-pcie-firmware
+LicenseFiles: LICENCE.Marvell
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 514900
+Filename: mwifiex-pcie-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 515565
+SHA256sum: 281cf35bc96be9c49cc959ed209f73bca88a12c872f4e0a7b00ccdc33fffcb88
+Description:  Marvell 8897 firmware
+
+Package: mwifiex-sdio-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: mwifiex-sdio-firmware
+LicenseFiles: LICENCE.Marvell
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 876712
+Filename: mwifiex-sdio-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 877085
+SHA256sum: 6c9438772bc1db0c835606a09493b41702f0f6244aaafc1d65196075bdc67479
+Description:  Marvell 8887/8997 firmware
+
+Package: mwl8k-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: mwl8k-firmware
+LicenseFiles: LICENCE.Marvell
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 192353
+Filename: mwl8k-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 193218
+SHA256sum: 1117c217f72ab4f9e77f041a223d8d67a0d60902debb354d4de4642306870f08
+Description:  Marvell 8366/8687 firmware
+
+Package: nftables-json
+Version: 1.0.8-1
+Depends: libc, kmod-nft-core, libnftnl11, jansson4
+Provides: nftables
+Source: feeds/base/package/network/utils/nftables
+SourceName: nftables-json
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1689833051
+Architecture: aarch64_cortex-a53
+Installed-Size: 307497
+Filename: nftables-json_1.0.8-1_aarch64_cortex-a53.ipk
+Size: 307275
+SHA256sum: cec6ac95838096d2c8cedcc7a9dd5d06747bcb7018aa6b20c257fe41eb2bf540
+Description:  nftables userspace utility with JSON support
+
+Package: nftables-nojson
+Version: 1.0.8-1
+Depends: libc, kmod-nft-core, libnftnl11
+Conflicts: nftables-json
+Provides: nftables
+Source: feeds/base/package/network/utils/nftables
+SourceName: nftables-nojson
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1689833051
+Architecture: aarch64_cortex-a53
+Installed-Size: 272510
+Filename: nftables-nojson_1.0.8-1_aarch64_cortex-a53.ipk
+Size: 272180
+SHA256sum: 5f8cdfdd045442c375ef7280b4a908f5b88b1eee956f18e788ff0cb3669fef91
+Description:  nftables userspace utility no JSON support
+
+Package: openssl-util
+Version: 3.0.16-1
+Depends: libc, libopenssl3, libopenssl-conf
+Source: feeds/base/package/libs/openssl
+SourceName: openssl-util
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1749649395
+CPE-ID: cpe:/a:openssl:openssl
+Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 305132
+Filename: openssl-util_3.0.16-1_aarch64_cortex-a53.ipk
+Size: 304695
+SHA256sum: 1eaae791321c073ef67e8cf5ca886d63ce6b4f29ff32c8c9da844ea2aee053d1
+Description:  The OpenSSL Project is a collaborative effort to develop a robust,
+ commercial-grade, full-featured, and Open Source toolkit implementing the
+ Transport Layer Security (TLS) protocol as well as a full-strength
+ general-purpose cryptography library.
+ This package contains the OpenSSL command-line utility.
+
+Package: r8152-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: r8152-firmware
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 10907
+Filename: r8152-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 11649
+SHA256sum: b8f3e5badbee9f4225a46d30fb8b47bccab853f739737aa25fe36b8af8ce2dd2
+Description:  RealTek RTL8152 firmware
+
+Package: r8169-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: r8169-firmware
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 23805
+Filename: r8169-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 24499
+SHA256sum: 2247e9c0b9e7758605d4ffef6908e7c3c340e05822aa112df518ed04c0959385
+Description:  RealTek RTL8169 firmware
+
+Package: radeon-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: radeon-firmware
+LicenseFiles: LICENSE.radeon
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 3522973
+Filename: radeon-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 3518305
+SHA256sum: 16107ef35fea09efc4da092019aecdf724b137ef51112b56fc48922e715d0a7c
+Description:  Radeon Video Driver firmware
+
+Package: rs9113-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: rs9113-firmware
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 84651
+Filename: rs9113-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 85222
+SHA256sum: d6f689ee81337e09c6950390e0f0d3b5a9dcb76fb1ded9a5104cf9d81d099cdc
+Description:  RedPine Signals rs9113 firmware
+
+Package: rt2800-pci-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: rt2800-pci-firmware
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 3958
+Filename: rt2800-pci-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 4695
+SHA256sum: 7f4eb3de5d8eab5ad060c1f90203af69233f6d9d171e8930ac0cbc8b50213e50
+Description:  Ralink RT28xx/3xxx PCI/SoC firmware
+
+Package: rt2800-usb-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: rt2800-usb-firmware
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 2929
+Filename: rt2800-usb-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 3649
+SHA256sum: c15efd5225c31afdbbdce6ea69f86ea183f9339719d3b9f0d743ab714eb94f64
+Description:  Ralink RT28xx/3xxx USB firmware
+
+Package: rt61-pci-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: rt61-pci-firmware
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 6497
+Filename: rt61-pci-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 7226
+SHA256sum: 7280ff20838ee7179dc6be8c863d0cc5aa652ad284b6430d3c45d49b093c44aa
+Description:  Ralink RT2561 firmware
+
+Package: rt73-usb-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: rt73-usb-firmware
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1309
+Filename: rt73-usb-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 2041
+SHA256sum: 98927d48f3de3ef52709a5c2be2eedd2cfb6e7dec35684f4229cc9d5f731b1dc
+Description:  Ralink RT2573 firmware
+
+Package: rtl8188eu-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: rtl8188eu-firmware
+LicenseFiles: LICENCE.rtlwifi_firmware.txt
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 10403
+Filename: rtl8188eu-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 11194
+SHA256sum: d5de2fb9eef7d61fd640ed9f186cc6789b8d282cb78b8103cbf472384eb47991
+Description:  RealTek RTL8188EU firmware
+
+Package: rtl8192ce-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: rtl8192ce-firmware
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 20752
+Filename: rtl8192ce-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 21464
+SHA256sum: e228c2b64378bc0d8b5c572c8cd93ec945fa82c99ce8f995eaa992f160e36f7a
+Description:  RealTek RTL8192CE firmware
+
+Package: rtl8192cu-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: rtl8192cu-firmware
+LicenseFiles: LICENCE.rtlwifi_firmware.txt
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 18705
+Filename: rtl8192cu-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 19495
+SHA256sum: 9b12e196fe34f29d4104554a82e90fb91fec6ca26857dd40b05c5caf073c210b
+Description:  RealTek RTL8192CU firmware
+
+Package: rtl8192de-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: rtl8192de-firmware
+LicenseFiles: LICENCE.rtlwifi_firmware.txt
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 13521
+Filename: rtl8192de-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 14280
+SHA256sum: 3894c7259657579479e286541b1758bb0ceffda9bc022542331d40a6b096edb6
+Description:  RealTek RTL8192DE firmware
+
+Package: rtl8192eu-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: rtl8192eu-firmware
+LicenseFiles: LICENCE.rtlwifi_firmware.txt
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 20950
+Filename: rtl8192eu-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 21705
+SHA256sum: f09a9391b737dc8e08650dd5827e1c7eaddbf83054acbd3c824304d7360df7c3
+Description:  RealTek RTL8192EU firmware
+
+Package: rtl8192se-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: rtl8192se-firmware
+LicenseFiles: LICENCE.rtlwifi_firmware.txt
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 36768
+Filename: rtl8192se-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 37477
+SHA256sum: e78dc10a873f5efa5833ac7f66dbed9014f5b30081ab9adb9facaa8ab6c46422
+Description:  RealTek RTL8192SE firmware
+
+Package: rtl8723au-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: rtl8723au-firmware
+LicenseFiles: LICENCE.rtlwifi_firmware.txt
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 27984
+Filename: rtl8723au-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 28733
+SHA256sum: 0c1c1981c6fd3d9542f858c419392abc2b4fac3c54e06557dffc4406d30d467e
+Description:  RealTek RTL8723AU firmware
+
+Package: rtl8723bu-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: rtl8723bu-firmware
+LicenseFiles: LICENCE.rtlwifi_firmware.txt
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 21416
+Filename: rtl8723bu-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 22171
+SHA256sum: e2221757eb2a798730e8a929c086bd66bb695e9df79ae04bcd1790b1d5145e1b
+Description:  RealTek RTL8723BU firmware
+
+Package: rtl8761a-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: rtl8761a-firmware
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 42736
+Filename: rtl8761a-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 43528
+SHA256sum: 5132a32cb046c1b06276442ca08b2ce51315da9fbaaa09bb8d0de7a89246828c
+Description:  RealTek RTL8761A firmware
+
+Package: rtl8761b-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: rtl8761b-firmware
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 31762
+Filename: rtl8761b-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 32578
+SHA256sum: 390314ec6d883cd88c6ca45696cf8de827c599d462c30341014a673fbb2f4056
+Description:  RealTek RTL8761B firmware
+
+Package: rtl8761bu-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: rtl8761bu-firmware
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 31150
+Filename: rtl8761bu-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 31910
+SHA256sum: f6a18773a657787cf82bbcd47be2c9f530da8621e09f579b4831ea4c99923538
+Description:  RealTek RTL8761BU firmware
+
+Package: rtl8821ae-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: rtl8821ae-firmware
+LicenseFiles: LICENCE.rtlwifi_firmware.txt
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 27900
+Filename: rtl8821ae-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 28628
+SHA256sum: df7c380ca3929389f45261692699aa9a4117bc51c70c562e488d5bf713cf3018
+Description:  RealTek RTL8821AE firmware
+
+Package: rtl8822be-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: rtl8822be-firmware
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 82172
+Filename: rtl8822be-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 82966
+SHA256sum: 8bfc05de9b68219dfc4bcf59dabaad0a195846f3c72eac3a9a65226ce1a6f287
+Description:  RealTek RTL8822BE firmware
+
+Package: rtl8822ce-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: rtl8822ce-firmware
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 161933
+Filename: rtl8822ce-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 162595
+SHA256sum: fd2104408a5419b33683b85c6236f4d7d4fc9fe21d0fe1a7f1a720318c9bb980
+Description:  RealTek RTL8822CE firmware
+
+Package: ti-3410-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: ti-3410-firmware
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 7876
+Filename: ti-3410-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 8629
+SHA256sum: 8648170d465ae54c29ec7ec2b658cf3a50c03d260346938112d41428f2955a9f
+Description:  TI 3410 firmware
+
+Package: ti-5052-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: ti-5052-firmware
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 7853
+Filename: ti-5052-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 8609
+SHA256sum: 5492fb6b6c331899bdf517b6c5c453b97a12e544a22534f9192989935978b5de
+Description:  TI 5052 firmware
+
 Package: ubispot
 Version: 1
-Depends: ucode (>= 2023-11-07), libc, conntrack, libblobmsg-json20230523, liblucihttp-ucode, libradcli, libubox20230523, libubus20230605, libuci20130104, ubispotfilter, ucode, ucode-mod-log, ucode-mod-math, ucode-mod-nl80211, ucode-mod-rtnl, uhttpd-mod-ucode, ucode-mod-uloop
+Depends: ucode (>= 2023-11-07), libc, conntrack, libblobmsg-json20230523, liblucihttp-ucode, libradcli, libubox20230523, libubus20230605, libuci20130104, ubispotfilter, ubispot-www, ucode, ucode-mod-log, ucode-mod-math, ucode-mod-nl80211, ucode-mod-rtnl, uhttpd-mod-ucode, ucode-mod-uloop
 Conflicts: uspot
+Source: /home/s1/docker-openwisp-test1/ubispot
+SourceName: ubispot
+License: GPL-2.0
 Section: net
-Maintainer: Thibaut VARÈNE <hacks@slashdirt.org>
+SourceDateEpoch: 1727094886
+Maintainer: J <j@ubi.tel>
 Architecture: aarch64_cortex-a53
-Installed-Size: 29216
+Installed-Size: 33888
 Filename: ubispot_1_aarch64_cortex-a53.ipk
-Size: 34343
+Size: 34373
+SHA256sum: e2a6498bee70ec1eccb0ea514e5e35b4679fb2bda758ae1bb4e066226b860101
 Description:  Ubi.tel fork of uspot with pre-configured wifi login page radius uam handler.
 
 Package: ubispotfilter
 Version: 1
 Depends: ucode (>= 2023-11-07), libc, ucode, ucode-mod-log, ucode-mod-uloop, ucode-mod-rtnl, nftables-json, conntrack
 Conflicts: uspotfilter
+Source: /home/s1/docker-openwisp-test1/ubispot
+SourceName: ubispotfilter
+License: GPL-2.0
 Section: net
-Maintainer: Thibaut VARÈNE <hacks@slashdirt.org>
+SourceDateEpoch: 1727094886
+Maintainer: J <j@ubi.tel>
 Architecture: all
-Installed-Size: 4018
+Installed-Size: 4017
 Filename: ubispotfilter_1_all.ipk
-Size: 4856
+Size: 4835
+SHA256sum: 4b999b5fe4602f8ad3da19f0492b9d40cb9e16deb5f5cb7b95f83c5cfdc43cd1
 Description:  This package provides the nftables firewall interface to ubispot.
+ It is compatible with firewall4.
 
 Package: ubispot-www
 Version: 1
-Depends: libc, ubispot
+Depends: libc
 Conflicts: uspot-www
+Source: /home/s1/docker-openwisp-test1/ubispot
+SourceName: ubispot-www
+License: GPL-2.0
 Section: net
-Maintainer: Thibaut VARÈNE <hacks@slashdirt.org>
+SourceDateEpoch: 1727094886
+Maintainer: J <j@ubi.tel>
 Architecture: all
-Installed-Size: 24834
+Installed-Size: 25420
 Filename: ubispot-www_1_all.ipk
 Size: 25808
-Description:  Web interface files for ubispot captive portal.
+SHA256sum: 064b90cdaff89174a914275eea22f3d3dfc1e404b6eaf77f5597b0d4de670384
+Description:  This package provides CSS and HTML templates for ubispot UI.
+ This package must be installed with ubispot unless a local alternative is provided.
+
+Package: ubus
+Version: 2023-06-05-f787c97b-1
+Depends: libc, libubus20230605, libblobmsg-json20230523, ubusd
+Source: feeds/base/package/system/ubus
+SourceName: ubus
+License: LGPL-2.1
+Section: base
+SourceDateEpoch: 1695039918
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 6790
+Filename: ubus_2023-06-05-f787c97b-1_aarch64_cortex-a53.ipk
+Size: 7551
+SHA256sum: 3769ff51c00f43f2b0930b03981bbedd742ffc8bcdcf5b18aa1f93e0690e4378
+Description:  OpenWrt RPC client utility
+
+Package: ubusd
+Version: 2023-06-05-f787c97b-1
+Depends: libc, libubox20230523, libblobmsg-json20230523
+Source: feeds/base/package/system/ubus
+SourceName: ubusd
+License: LGPL-2.1
+Section: base
+Require-User: ubus=81:ubus=81
+SourceDateEpoch: 1695039918
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 13442
+Filename: ubusd_2023-06-05-f787c97b-1_aarch64_cortex-a53.ipk
+Size: 14074
+SHA256sum: 7a171eb9b49923f13533441d3837818fa62420c4a1e549a8bfa9e76c01a4b790
+Description:  OpenWrt RPC daemon
+
+Package: uci
+Version: 2023-08-10-5781664d-1
+Depends: libc, libuci20130104
+Source: feeds/base/package/system/uci
+SourceName: uci
+License: LGPL-2.1
+Section: base
+SourceDateEpoch: 1691751214
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 7299
+Filename: uci_2023-08-10-5781664d-1_aarch64_cortex-a53.ipk
+Size: 7981
+SHA256sum: 23331c4506e6afc69bce98f9143e9864644a9beb00cd97a5fe51611add8460ed
+Description:  Utility for the Unified Configuration Interface (UCI)
+
+Package: ucode
+Version: 2024-07-11-1a8a0bcf-3
+Depends: libc, libucode20230711
+Source: feeds/base/package/utils/ucode
+SourceName: ucode
+License: ISC
+Section: lang
+SourceDateEpoch: 1726863663
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 6739
+Filename: ucode_2024-07-11-1a8a0bcf-3_aarch64_cortex-a53.ipk
+Size: 7495
+SHA256sum: 8efa60799fb4f2a162b745e87a37c82c580d6f9e829e7012ee1606fdfebde7c7
+Description:  ucode is a tiny script interpreter featuring an ECMAScript oriented
+ script language and Jinja-inspired templating.
+
+Package: ucode-mod-debug
+Version: 2024-07-11-1a8a0bcf-3
+Depends: libc, ucode, libubox20230523, libucode20230711
+Source: feeds/base/package/utils/ucode
+SourceName: ucode-mod-debug
+License: ISC
+Section: lang
+SourceDateEpoch: 1726863663
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 8628
+Filename: ucode-mod-debug_2024-07-11-1a8a0bcf-3_aarch64_cortex-a53.ipk
+Size: 9338
+SHA256sum: 809ed3d3129145fb60b9c59172831319761bee97b75649a02804036382a50628
+Description:  The debug plugin module provides runtime debugging and introspection facilities.
+
+Package: ucode-mod-fs
+Version: 2024-07-11-1a8a0bcf-3
+Depends: libc, ucode
+Source: feeds/base/package/utils/ucode
+SourceName: ucode-mod-fs
+License: ISC
+Section: lang
+SourceDateEpoch: 1726863663
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 10747
+Filename: ucode-mod-fs_2024-07-11-1a8a0bcf-3_aarch64_cortex-a53.ipk
+Size: 11424
+SHA256sum: 8dd64b6d70a60889c18e555e95f8740014f766d80b7178991e448fbd9578cd02
+Description:  The filesystem plugin module allows interaction with the local file system.
+
+Package: ucode-mod-log
+Version: 2024-07-11-1a8a0bcf-3
+Depends: libc, ucode, libubox20230523
+Source: feeds/base/package/utils/ucode
+SourceName: ucode-mod-log
+License: ISC
+Section: lang
+SourceDateEpoch: 1726863663
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 4596
+Filename: ucode-mod-log_2024-07-11-1a8a0bcf-3_aarch64_cortex-a53.ipk
+Size: 5209
+SHA256sum: 1a87345a6a5ac02efa09e77f15f1a7d1e85324e00218de61c8c0a809a6f46c3d
+Description:  The log plugin module provides access to the syslog and libubox ulog APIs.
+
+Package: ucode-mod-math
+Version: 2024-07-11-1a8a0bcf-3
+Depends: libc, ucode
+Source: feeds/base/package/utils/ucode
+SourceName: ucode-mod-math
+License: ISC
+Section: lang
+SourceDateEpoch: 1726863663
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 2778
+Filename: ucode-mod-math_2024-07-11-1a8a0bcf-3_aarch64_cortex-a53.ipk
+Size: 3428
+SHA256sum: 3b3aa442e877ab6597f8b513856eedd10d3ba6c0f984b94e4cfdfb1fe4c4faee
+Description:  The math plugin provides access to various <math.h> procedures.
+
+Package: ucode-mod-nl80211
+Version: 2024-07-11-1a8a0bcf-3
+Depends: libc, ucode, libnl-tiny1, libubox20230523
+Source: feeds/base/package/utils/ucode
+SourceName: ucode-mod-nl80211
+License: ISC
+Section: lang
+SourceDateEpoch: 1726863663
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 21573
+Filename: ucode-mod-nl80211_2024-07-11-1a8a0bcf-3_aarch64_cortex-a53.ipk
+Size: 22081
+SHA256sum: 195429450a02a39672c93d21c7acd8b4bd2be065881f2b8508a85a67d7bf7017
+Description:  The nl80211 plugin provides access to the Linux wireless 802.11 netlink API.
+
+Package: ucode-mod-resolv
+Version: 2024-07-11-1a8a0bcf-3
+Depends: libc, ucode
+Source: feeds/base/package/utils/ucode
+SourceName: ucode-mod-resolv
+License: ISC
+Section: lang
+SourceDateEpoch: 1726863663
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 8218
+Filename: ucode-mod-resolv_2024-07-11-1a8a0bcf-3_aarch64_cortex-a53.ipk
+Size: 8908
+SHA256sum: 39fed6b563ca13618c83ef66c199eb037fc24831c49dc11a400560b4bb1988fc
+Description:  The resolv plugin implements simple DNS resolving.
+
+Package: ucode-mod-rtnl
+Version: 2024-07-11-1a8a0bcf-3
+Depends: libc, ucode, libnl-tiny1, libubox20230523
+Source: feeds/base/package/utils/ucode
+SourceName: ucode-mod-rtnl
+License: ISC
+Section: lang
+SourceDateEpoch: 1726863663
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 28181
+Filename: ucode-mod-rtnl_2024-07-11-1a8a0bcf-3_aarch64_cortex-a53.ipk
+Size: 28682
+SHA256sum: a406f8681d4cb1586d06b94b2258e3ad401e1f2aff9c1eb25868f7a7c858588e
+Description:  The rtnl plugin provides access to the Linux routing netlink API.
+
+Package: ucode-mod-struct
+Version: 2024-07-11-1a8a0bcf-3
+Depends: libc, ucode
+Source: feeds/base/package/utils/ucode
+SourceName: ucode-mod-struct
+License: ISC
+Section: lang
+SourceDateEpoch: 1726863663
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 9594
+Filename: ucode-mod-struct_2024-07-11-1a8a0bcf-3_aarch64_cortex-a53.ipk
+Size: 10282
+SHA256sum: 0f881b60a632ceb2cf4dd07f60af96fa958b1f75e3f0235cb748b04fc8a1bf7c
+Description:  The struct plugin implements Python 3 compatible struct.pack/unpack functionality.
+
+Package: ucode-mod-ubus
+Version: 2024-07-11-1a8a0bcf-3
+Depends: libc, ucode, libubus20230605, libblobmsg-json20230523
+Source: feeds/base/package/utils/ucode
+SourceName: ucode-mod-ubus
+License: ISC
+Section: lang
+SourceDateEpoch: 1726863663
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 15169
+Filename: ucode-mod-ubus_2024-07-11-1a8a0bcf-3_aarch64_cortex-a53.ipk
+Size: 15830
+SHA256sum: 93033e1b447ffe7d6d158b34471e6ff4b8b66469bfbb01772e6741b1f80e0f58
+Description:  The ubus module allows ucode template scripts to enumerate and invoke ubus procedures.
+
+Package: ucode-mod-uci
+Version: 2024-07-11-1a8a0bcf-3
+Depends: libc, ucode, libuci20130104
+Source: feeds/base/package/utils/ucode
+SourceName: ucode-mod-uci
+License: ISC
+Section: lang
+SourceDateEpoch: 1726863663
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 7658
+Filename: ucode-mod-uci_2024-07-11-1a8a0bcf-3_aarch64_cortex-a53.ipk
+Size: 8367
+SHA256sum: efe62a59e010e47f1bc6b6d14f0aee95acce89afb4913a9de544af64258ac17c
+Description:  The uci module allows templates to read and modify uci configuration.
+
+Package: ucode-mod-uloop
+Version: 2024-07-11-1a8a0bcf-3
+Depends: libc, ucode, libubox20230523
+Source: feeds/base/package/utils/ucode
+SourceName: ucode-mod-uloop
+License: ISC
+Section: lang
+SourceDateEpoch: 1726863663
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 8643
+Filename: ucode-mod-uloop_2024-07-11-1a8a0bcf-3_aarch64_cortex-a53.ipk
+Size: 9352
+SHA256sum: 5e53cde0d2326adf3f9b5cc9b5de5c8027ef028f417479b56cebcef5b828fd57
+Description:  The uloop module allows ucode scripts to interact with OpenWrt uloop event loop implementation.
+
+Package: uhttpd
+Version: 2023-06-25-34a8a74d-2
+Depends: libc, libubox20230523, libblobmsg-json20230523, libjson-script20230523, libjson-c5
+Source: feeds/base/package/network/services/uhttpd
+SourceName: uhttpd
+License: ISC
+Section: net
+SourceDateEpoch: 1706348203
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 30798
+Filename: uhttpd_2023-06-25-34a8a74d-2_aarch64_cortex-a53.ipk
+Size: 31670
+SHA256sum: ab634ce91ef321ead353fd600825f02c605bc6124b1d8bdc2f264b0b1c8075db
+Description:  uHTTPd is a tiny single threaded HTTP server with TLS, CGI and Lua
+ support. It is intended as a drop-in replacement for the Busybox
+ HTTP daemon.
+
+Package: uhttpd-mod-lua
+Version: 2023-06-25-34a8a74d-2
+Depends: libc, uhttpd, liblua5.1.5
+Source: feeds/base/package/network/services/uhttpd
+SourceName: uhttpd-mod-lua
+License: ISC
+Section: net
+SourceDateEpoch: 1706348203
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 4054
+Filename: uhttpd-mod-lua_2023-06-25-34a8a74d-2_aarch64_cortex-a53.ipk
+Size: 4691
+SHA256sum: f7edf366ea0a1a51b21d30c925bfc8710a59dfbac3fd3f7fdf2a47695f195268
+Description:  The Lua plugin adds a CGI-like Lua runtime interface to uHTTPd.
+
+Package: uhttpd-mod-ubus
+Version: 2023-06-25-34a8a74d-2
+Depends: libc, uhttpd, libubus20230605, libblobmsg-json20230523
+Source: feeds/base/package/network/services/uhttpd
+SourceName: uhttpd-mod-ubus
+License: ISC
+Section: net
+SourceDateEpoch: 1706348203
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 8642
+Filename: uhttpd-mod-ubus_2023-06-25-34a8a74d-2_aarch64_cortex-a53.ipk
+Size: 9453
+SHA256sum: a6c5c850b0bf163c6f879c1a99ee88fe2dda26fec8073e492ffaf8aec0bea566
+Description:  The ubus plugin adds a HTTP/JSON RPC proxy for ubus and publishes the
+ session.* namespace and procedures.
+
+Package: uhttpd-mod-ucode
+Version: 2023-06-25-34a8a74d-2
+Depends: libc, uhttpd, libucode20230711
+Source: feeds/base/package/network/services/uhttpd
+SourceName: uhttpd-mod-ucode
+License: ISC
+Section: net
+SourceDateEpoch: 1706348203
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 5063
+Filename: uhttpd-mod-ucode_2023-06-25-34a8a74d-2_aarch64_cortex-a53.ipk
+Size: 5681
+SHA256sum: 0de8c002c9260ea7181f17f9d89b1428b390de8435c6c768d33a5581080e1164
+Description:  The ucode plugin adds a CGI-like ucode runtime interface to uHTTPd.
+
+Package: wil6210-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: wil6210-firmware
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 254938
+Filename: wil6210-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 255737
+SHA256sum: c373a6ea969caf892002ba8d60a2ce46077501da39e0e878bfebf3a0058957d5
+Description:  wil6210 firmware
+
+Package: wl12xx-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: wl12xx-firmware
+LicenseFiles: LICENCE.ti-connectivity
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1175081
+Filename: wl12xx-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 1175136
+SHA256sum: 9f9c31d6886de2340a260341918c29e40223da0e3bbf50025bb74dc9f7314fea
+Description:  TI WL12xx firmware
+
+Package: wl18xx-firmware
+Version: 20230804-1
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: wl18xx-firmware
+LicenseFiles: LICENCE.ti-connectivity
+Section: firmware
+SourceDateEpoch: 1720645656
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 343323
+Filename: wl18xx-firmware_20230804-1_aarch64_cortex-a53.ipk
+Size: 343945
+SHA256sum: 9cf45aea195f416a79e4205ed9b004706d6a8f7f0272ba1c0a0cc7919f89387f
+Description:  TI WL18xx firmware
+
