@@ -2396,10 +2396,10 @@ Section: net
 SourceDateEpoch: 1727094886
 Maintainer: J <j@ubi.tel>
 Architecture: aarch64_cortex-a53
-Installed-Size: 34066
+Installed-Size: 35888
 Filename: ubispot_1_aarch64_cortex-a53.ipk
-Size: 34544
-SHA256sum: 8829fab13c1f3ef8b0cffbbb859e7d5cd832da4653303957a551f5ae5e2a3801
+Size: 36358
+SHA256sum: 7a3410d1dfcb94e80a7d9d90421c97213cb0e5b4dc46e34c138d6daced28b13a
 Description:  Ubi.tel fork of uspot with pre-configured wifi login page radius uam handler.
 
 Package: ubispotfilter
