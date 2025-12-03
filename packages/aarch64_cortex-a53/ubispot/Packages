@@ -569,6 +569,67 @@ Size: 10523
 SHA256sum: 5b8def44c35c6b55f8c467934037c8b4dfd7e66e13d18b3f8284dddd09a286af
 Description:  AR9170 firmware
 
+Package: dnsmasq
+Version: 2.90-2
+Depends: libc, libubus20230605
+Source: feeds/base/package/network/services/dnsmasq
+SourceName: dnsmasq
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Require-User: dnsmasq=453:dnsmasq=453
+SourceDateEpoch: 1710894130
+CPE-ID: cpe:/a:thekelleys:dnsmasq
+Architecture: aarch64_cortex-a53
+Installed-Size: 149870
+Filename: dnsmasq_2.90-2_aarch64_cortex-a53.ipk
+Size: 150058
+SHA256sum: 0587f2f6231c70bc7aaf4092dca484680c5967c8db3a1d43d8f78ab444c3610f
+Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
+
+Package: dnsmasq-dhcpv6
+Version: 2.90-2
+Depends: libc, libubus20230605
+Provides: dnsmasq
+Source: feeds/base/package/network/services/dnsmasq
+SourceName: dnsmasq-dhcpv6
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Require-User: dnsmasq=453:dnsmasq=453
+SourceDateEpoch: 1710894130
+CPE-ID: cpe:/a:thekelleys:dnsmasq
+Architecture: aarch64_cortex-a53
+Installed-Size: 177463
+Filename: dnsmasq-dhcpv6_2.90-2_aarch64_cortex-a53.ipk
+Size: 178041
+SHA256sum: b4e33b98af096580f660f096e49d67d06b62724bfdc020d2d0ab0bd95611694b
+Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
+ 
+ This is a variant with DHCPv6 support
+
+Package: dnsmasq-full
+Version: 2.90-2
+Depends: libc, libubus20230605, libnettle8, libnetfilter-conntrack3, nftables-json
+Provides: dnsmasq
+Source: feeds/base/package/network/services/dnsmasq
+SourceName: dnsmasq-full
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Require-User: dnsmasq=453:dnsmasq=453
+SourceDateEpoch: 1710894130
+CPE-ID: cpe:/a:thekelleys:dnsmasq
+Architecture: aarch64_cortex-a53
+Installed-Size: 205047
+Filename: dnsmasq-full_2.90-2_aarch64_cortex-a53.ipk
+Size: 205512
+SHA256sum: 6cf2d5cfe13d07722e7a4525334bb84b5dbc609b6d058eb8e60a5a84c512c00f
+Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
+ 
+ This is a fully configurable variant with DHCPv4, DHCPv6, DNSSEC, Authoritative DNS
+ and nftset, Conntrack support & NO_ID enabled by default.
+
 Package: e100-firmware
 Version: 20230804-1
 Depends: libc
@@ -2387,7 +2448,7 @@ Description:  TI 5052 firmware
 
 Package: ubispot
 Version: 1
-Depends: ucode (>= 2023-11-07), libc, conntrack, libblobmsg-json20230523, liblucihttp-ucode, libradcli, libubox20230523, libubus20230605, libuci20130104, ubispotfilter, ubispot-www, ucode, ucode-mod-log, ucode-mod-math, ucode-mod-nl80211, ucode-mod-rtnl, uhttpd-mod-ucode, ucode-mod-uloop
+Depends: ucode (>= 2023-11-07), libc, conntrack, dnsmasq-full, libblobmsg-json20230523, liblucihttp-ucode, libradcli, libubox20230523, libubus20230605, libuci20130104, ubispotfilter, ubispot-www, ucode, ucode-mod-log, ucode-mod-math, ucode-mod-nl80211, ucode-mod-rtnl, uhttpd-mod-ucode, ucode-mod-uloop
 Conflicts: uspot
 Source: /home/s1/docker-openwisp-test1/ubispot
 SourceName: ubispot
@@ -2396,10 +2457,10 @@ Section: net
 SourceDateEpoch: 1727094886
 Maintainer: J <j@ubi.tel>
 Architecture: aarch64_cortex-a53
-Installed-Size: 35888
+Installed-Size: 35518
 Filename: ubispot_1_aarch64_cortex-a53.ipk
-Size: 36358
-SHA256sum: 7a3410d1dfcb94e80a7d9d90421c97213cb0e5b4dc46e34c138d6daced28b13a
+Size: 36004
+SHA256sum: 3356463723288349a3740940649533bf9ef2d6301a0b1e351bab1b1ca838a984
 Description:  Ubi.tel fork of uspot with pre-configured wifi login page radius uam handler.
 
 Package: ubispotfilter
@@ -2431,10 +2492,10 @@ Section: net
 SourceDateEpoch: 1727094886
 Maintainer: J <j@ubi.tel>
 Architecture: all
-Installed-Size: 25420
+Installed-Size: 25830
 Filename: ubispot-www_1_all.ipk
-Size: 25808
-SHA256sum: 064b90cdaff89174a914275eea22f3d3dfc1e404b6eaf77f5597b0d4de670384
+Size: 26220
+SHA256sum: e7438b54a797fbc5eb875c96005cd9f3afe055d67835cb3baaff4029b2a90712
 Description:  This package provides CSS and HTML templates for ubispot UI.
  This package must be installed with ubispot unless a local alternative is provided.
 
