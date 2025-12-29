@@ -1,5 +1,5 @@
 Package: ubispot
-Version: 1
+Version: 2
 Depends: ucode (>= 2023-11-07), libc, conntrack, dnsmasq-full, libblobmsg-json20230523, liblucihttp-ucode, libradcli, libubox20230523, libubus20230605, libuci20130104, ubispotfilter, ubispot-www, ucode, ucode-mod-log, ucode-mod-math, ucode-mod-nl80211, ucode-mod-rtnl, uhttpd-mod-ucode, ucode-mod-uloop
 Conflicts: uspot
 Source: /home/s1/docker-openwisp-test1/ubispot
@@ -9,32 +9,14 @@ Section: net
 SourceDateEpoch: 1764808156
 Maintainer: J <j@ubi.tel>
 Architecture: aarch64_cortex-a53
-Installed-Size: 35529
-Filename: ubispot_1_aarch64_cortex-a53.ipk
-Size: 36016
-SHA256sum: 6260524c6884e36a2af61c4dd4555d4c1cf7eba2a06815b1e5e66e3f14556a33
+Installed-Size: 35537
 Description:  Ubi.tel fork of uspot with pre-configured wifi login page radius uam handler.
-
-Package: ubispotfilter
-Version: 1
-Depends: ucode (>= 2023-11-07), libc, ucode, ucode-mod-log, ucode-mod-uloop, ucode-mod-rtnl, nftables-json, conntrack
-Conflicts: uspotfilter
-Source: /home/s1/docker-openwisp-test1/ubispot
-SourceName: ubispotfilter
-License: GPL-2.0
-Section: net
-SourceDateEpoch: 1764808156
-Maintainer: J <j@ubi.tel>
-Architecture: all
-Installed-Size: 4020
-Filename: ubispotfilter_1_all.ipk
-Size: 4841
-SHA256sum: eebcfdd117ddfee41acc7eca3432502fe51fe59207371a2df1773aca96050d55
-Description:  This package provides the nftables firewall interface to ubispot.
- It is compatible with firewall4.
+Filename: ubispot_2_aarch64_cortex-a53.ipk
+Size: 36019
+SHA256sum: 01c3b5c70e9eb1153c807fce3badc9cf571d3d26482b5e12763daa6267405852
 
 Package: ubispot-www
-Version: 1
+Version: 2
 Depends: libc
 Conflicts: uspot-www
 Source: /home/s1/docker-openwisp-test1/ubispot
@@ -45,9 +27,27 @@ SourceDateEpoch: 1764808156
 Maintainer: J <j@ubi.tel>
 Architecture: all
 Installed-Size: 25827
-Filename: ubispot-www_1_all.ipk
-Size: 26214
-SHA256sum: 727ef5bb9d88e10d8d0ec5bd94779697bcfe2dbd2ea1692cd8b988f8fffc39a1
 Description:  This package provides CSS and HTML templates for ubispot UI.
  This package must be installed with ubispot unless a local alternative is provided.
+Filename: ubispot-www_2_all.ipk
+Size: 26213
+SHA256sum: 9f3b8f2e5af474945e732827cebf0f76d42d6d712872cd15c8f1db10f34501c8
+
+Package: ubispotfilter
+Version: 2
+Depends: ucode (>= 2023-11-07), libc, ucode, ucode-mod-log, ucode-mod-uloop, ucode-mod-rtnl, nftables-json, conntrack
+Conflicts: uspotfilter
+Source: /home/s1/docker-openwisp-test1/ubispot
+SourceName: ubispotfilter
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1764808156
+Maintainer: J <j@ubi.tel>
+Architecture: all
+Installed-Size: 4020
+Description:  This package provides the nftables firewall interface to ubispot.
+ It is compatible with firewall4.
+Filename: ubispotfilter_2_all.ipk
+Size: 4837
+SHA256sum: 1e5f3676555dc7e0fb32d1fd8f0c198fd6ce5df4370231d5a74956e348981ff1
 
